@@ -1,0 +1,8 @@
+#root {
+  height: 100vh;
+  background-color: #344163;
+  padding: 0;
+}
+::-webkit-scrollbar {
+  width: 0;
+}

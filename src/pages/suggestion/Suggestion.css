@@ -1,0 +1,62 @@
+.suggestion {
+  background-color: #344163;
+  color: white;
+  min-height: 100vh;
+}
+
+.suggestion h3 {
+  color: #04e9ae;
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.suggestion form {
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.suggestion label {
+  display: block;
+  color: #ffffff;
+  font-weight: bold;
+  margin-bottom: 0.4rem;
+  font-size: 0.8rem;
+}
+
+.submit-button {
+  width: 8rem;
+  border: solid;
+  border-color: transparent;
+  display: block;
+  margin: 1rem auto;
+  background-color: #04e9ae;
+  color: #212b44;
+  padding: 0.4rem 0.8rem;
+  border-radius: 0.8rem;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-top: 2rem;
+}
+
+.submit-button:disabled {
+  background-color: #b1e5c6;
+  cursor: not-allowed;
+}
+
+.required {
+  color: #f12602;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.field-holder {
+  width: 100%;
+  padding-left: 10vw;
+  padding-right: 10vw;
+}
+
+.suggestion-image {
+  width: 100%;
+}
