@@ -22,7 +22,7 @@ const HomePage = () => {
     } = useGlobalContext();
 
     useEffect(() => {
-        document.title = "Freedemy | Home";
+        document.title = "SkillStream | Home";
     }, []);
 
     useEffect(() => {

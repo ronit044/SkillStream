@@ -41,8 +41,12 @@ const SearchBar = () => {
                     className='searchbox'
                     type='search'
                     placeholder='javascript'
-                    onChange={({ target }) => {
+                    onChange={async ({ target }) => {
                         setSearchValue(target.value);
+                        if(target.value===""){
+                            const { data } = await axios.get(`/courses`);
+                            setCourseArray(data.allCourses);
+                        }
                     }}
                     onKeyDown={(e) => handleKeyDown(e)}
                 />

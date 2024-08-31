@@ -3,7 +3,7 @@ import "./Footer.css";
 
 const Footer = () => {
   const githubHref = () => {
-    window.open("https://github.com/mptapasdas/freedemy", "_blank");
+    window.open("https://github.com/ronit044/SkillStreamfreedemy", "_blank");
   };
   return (
     <div className='footer-container'>
