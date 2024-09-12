@@ -104,15 +104,7 @@ const NavBar = () => {
               className="text-color text-decoration-none mr-md-5"
               onClick={() => changePage("suggest")}
             >
-              <button
-                className={`${
-                  page === "suggest"
-                    ? "nav-button nav-button-highlight"
-                    : "nav-button"
-                }`}
-              >
-                Suggest
-              </button>
+             
             </Link>
             <button
               className="login-button"
