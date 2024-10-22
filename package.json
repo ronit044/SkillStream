@@ -1,7 +1,6 @@
 {
     "name": "skillstream",
     "version": "0.1.0",
-    "homepage": "https://ronit044.github.io/SkillStream/",
     "private": true,
     "dependencies": {
         "@emotion/react": "^11.7.1",
