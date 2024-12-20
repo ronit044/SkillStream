@@ -45,5 +45,5 @@ SkillStream aims to provide users with a centralized platform for accessing high
 
 ## Screenshots
 
-![Responsive View](./assets/responsive-view.png)
+![Responsive View](./readMeAssets/responsive-view.png)
 
