@@ -7,7 +7,7 @@ import "./favourites.css";
 
 const Favourites = () => {
     useEffect(() => {
-        document.title = "Freedemy | Favourites";
+        document.title = "SkillStream | Favourites";
     });
 
     const { favouriteCourseArray, favouriteCoursesLoading, isLoggedIn } =

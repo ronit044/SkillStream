@@ -4,7 +4,7 @@ import whyReadImage from "../../assets/about.png";
 
 const About = () => {
   useEffect(() => {
-    document.title = "Freedemy | About";
+    document.title = "SkillStream | About";
   });
   return (
     <div className='h-100'>

@@ -4,7 +4,7 @@ import { Route, Switch } from "react-router-dom";
 import HomePage from "./pages/home/home";
 import Favourites from "./pages/favourites/favourites";
 import About from "./pages/about/about";
-import Suggestion from "./pages/suggestion/Suggestion";
+// import Suggestion from "./pages/suggestion/Suggestion";
 
 import Sign from "./layouts/sign/sign";
 import Share from "./layouts/share/share";
